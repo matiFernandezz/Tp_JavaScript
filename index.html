@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TP-JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+     <h1>Trabajo Práctico de JavaScript</h1>
+    <section class="contenedorSecciones">
+        <div class="secciones">
+          <h2>1.Introducción a JavaScript</h2>
+          <button onclick="introduccionJava()">Realizar Ejercicio </button>
+        </div>
+        <div class="secciones">
+          <h2>2.Operadores lógicos y condicionales</h2>
+          <button onclick="operadores()">Realizar Ejercicio </button>
+        </div>
+        <div class="secciones">
+          <h2>3.Operadores de asignación y bucles</h2>
+          <button onclick="operadoresAsignacion()">Realizar Ejercicio </button>
+        </div>
+        <div class="secciones">
+          <h2>4.Funciones de JavaScript</h2>
+          <button onclick="funciones()">Realizar Ejercicio </button>
+        </div>
+        <div class="secciones">
+          <h2>5. Objetos en JavaScript</h2>
+          <button onclick="objetos()">Realizar Ejercicio </button>
+        </div>
+        <div class="secciones">
+          <h2>6. Arrays en JavaScript</h2>
+          <button onclick="arrays()">Realizar Ejercicio </button>
+        </div>
+      <div class="secciones">
+          <h2>7. Introducción al DOM</h2>
+        
+          <h3>Ejercicio 1</h3>
+          <p>Este es el primer párrafo.</p>
+          <p>Este es el segundo párrafo.</p>
+          <p>Este es el tercer párrafo.</p>
+          <button onclick="cambiarColor()">Cambiar a color azul</button>
+          
+          <h3>Ejercicio 2</h3>
+          <form id="Formulario">
+            <label for="campoTexto">Ingresa un texto:</label>
+            <input type="text" id="campoTexto" name="campoTexto" required>
+            <button type="button" onclick="mostrarAlerta()">Mostrar Alerta</button>
+          </form>
+      </div>
+      <div class="secciones">
+        <h2>8. Eventos en DOM</h2>
+          <h3>Ejercicio 1: Lista con elementos</h3>
+          <ul id="Lista">
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+            <li>Elemento 4</li>
+          </ul>
+          <h3>Ejercicio 2: Campo de texto y botones</h3>
+
+          <input type="text" id="campoTexto2" placeholder="Ingresa algo">
+          <div class="botonesEj2">
+            <button type="button" onclick="deshabilitarCampo()">Deshabilitar</button>
+          <button type="button" onclick="habilitarCampo()">Habilitar</button>
+          </div>  
+      </div>
+    
+      <div class="secciones">
+        <h2>9. Local Storage</h2>
+        <form id="emailForm">
+          <label for="email">Correo electrónico:</label>
+          <input type="email" id="email" required>
+          <button type="submit" class="botonGuardar">Guardar Correo</button>
+        </form>
+        <div id="emailGuardado" class="email-output"></div>
+        <button id="borrarEmail" class="botonEliminar" style="display: none;">Eliminar correo guardado</button>
+      </div>     
+    </section>
+
+    <script src="/codigos/introduccion.js" defer></script>
+    <script src="/codigos/operadoresLogicos.js" defer></script>
+    <script src="/codigos/operadoresAsignacion.js" defer></script>
+    <script src="/codigos/funciones.js" defer></script>
+    <script src="/codigos/objetos.js" defer></script>
+    <script src="/codigos/arrays.js" defer></script>
+    <script src="/codigos/introduccionDOM.js" defer></script>
+    <script src="/codigos/eventosDOM.js" defer></script>
+    <script src="/codigos/localStorage.js" defer></script>
+  </body>
+</html>

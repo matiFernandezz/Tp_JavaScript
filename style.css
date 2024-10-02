@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #dfc5c5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+  color: #000000;
+}
+.contenedorSecciones{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+}
+.secciones {
+  display: flex;
+  flex-direction: column; /* Coloca los botones en columna */
+  height: auto; /* La altura ocupará toda la pantalla */
+  background-color: white;
+  padding: 2rem;
+  margin: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+.secciones button {
+  margin: 10px; 
+  padding: 20px; 
+  font-size: 16px; 
+  cursor: pointer;
+  max-width: auto;
+  text-align: center;
+  align-self: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;  
+  width: 100%;
+}
+form label {
+  align-self: self-start;
+  margin-bottom: 0.5rem;
+}
+.botonesEj2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #000000;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h2, h3 {
+  color: #4d3b3b;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #605151;
+  padding-bottom: 0.5rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 0.75rem;
+}
+
+button {
+  padding: 1rem;
+  background-color: #808387;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  margin-top: 0.75rem;
+
+}
+button:hover {
+  background-color: #baa3ba;
+}
+
+
+input[type="text"], input[type="email"] {
+  padding: 0.75rem;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  width: 100%;
+}
+
+/* Estilo de la lista (ul) */
+ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.botonGuardar {
+  background-color: #619a6e;
+  margin-top: 1rem;
+
+}
+.botonGuardar:hover{
+  background-color: #20cc20;
+}
+/* Estilo del botón de eliminar */
+.botonEliminar {
+  background-color: #ad4751;
+  margin-top: 1rem;
+}
+
+.botonEliminar:hover {
+  background-color: #ff0019;
+}
+
+/* Estilo para el área donde se muestra el correo almacenado */
+.email-output {
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+  color: #333;
+  border: #000000 solid 2px;
+  border-radius: 4px;
+  padding: 1rem;
+}
