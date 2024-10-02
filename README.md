@@ -93,9 +93,9 @@ Esta carpeta contiene los archivos JavaScript que implementan las diferentes sec
 
 ## Tecnologías Implementadas
 
-- **HTML5**: Estructura del documento.
-- **CSS3**: Estilos para la presentación visual.
-- **JavaScript**: Lógica de los ejercicios y funcionalidades interactivas.
+- **HTML**: Estructura del documento.
+- **CSS**: Estilos para la presentación visual.
+- **JavaScript con Vite**: Lógica de los ejercicios y funcionalidades interactivas.
 - **DOM Manipulation**: Manipulación de los elementos del DOM.
 - **Local Storage**: Almacenamiento local en el navegador.
 
